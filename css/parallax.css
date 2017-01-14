@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  background-image: url("../images/back2.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-div {
+  padding: 4%;
+  height: auto;
+  background-color: #ffffff;
+  color: #2f3240;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.parallax-title {
+  background-color: none;
+  padding-top: 15%;
+  margin-left: 30%;
+  color: #ffffff;
+  font-size: 5.5em;
+  font-weight: bold;
+  font-family: 'Droid Sans', sans-serif;
+}

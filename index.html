@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Website</title>
+    <link rel="stylesheet" type="" href="css/navbar.css">
+    <link rel="stylesheet" type="" href="css/parallax.css">
+    <link rel="stylesheet" type="" href="css/style.css">
+    <link rel="stylesheet" type="" href="css/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Lato" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+
+    <script>
+      function burgerMenu() {
+        var x = document.getElementById("main-nav");
+        if (x.className === "nav-bar") {
+          x.className += " responsive"; // Add responsive to the class if it is the main nav bar
+        } else {
+          x.className = "nav-bar";
+        }
+      }
+    </script>
+
+  </head>
+
+  <nav class="nav-bar" id="main-nav">
+    <a class="active" href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="http://github.com/dnakaj/">
+      <img class="git-nav-icon" src="images/GitHub-Mark-Light-120px-plus.png">
+    </a>
+
+    <!-- This is for the hamburger on mobile screens -->
+    <a class="burger-icon" href="javascript:void(0);" onclick="burgerMenu()"><i class="fa fa-bars" style="font-size: 1.5em;" aria-hidden="true"></i></a>
+
+  </nav>
+
+  <div class="parallax">
+    <div class="parallax-title">
+      <!-- NEEDS TO BECOME CENTERED! -->
+    </div>
+  </div>
+
+    <div class="parallax-div">
+      <a name="about"></a>
+      <span class="title1">About</span>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div class="parallax-div">
+      <a name="portfolio"></a>
+      <span class="title1">Portfolio</span>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+
+  </body>
+</html>
